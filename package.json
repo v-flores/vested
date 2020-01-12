@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "vested-chicago",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "This is a mock website for the Chicago based dance music label Vested.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

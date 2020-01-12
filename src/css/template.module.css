@@ -7,7 +7,7 @@
 }
 .images {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 0.75fr));
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   margin-bottom: 2rem;
@@ -19,6 +19,13 @@
   text-transform: capitalize;
   letter-spacing: 4px;
   margin-bottom: 1rem;
+}
+.tab {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr 0.75fr;
+}
+.tab li {
+  margin-right: 3rem;
 }
 .info {
   display: flex;
@@ -35,8 +42,6 @@
 }
 .icon {
   color: #3fd0d4;
-  font-size: 1.4rem;
-  margin-right: 0.5rem;
 }
 .desc {
   line-height: 2;
@@ -46,13 +51,13 @@
   text-transform: capitalize;
 }
 .template h2 {
-  margin: 2rem 0;
+  margin: 0rem 0;
 }
-.journey {
-  margin: 3rem 0;
+.tracklist {
+  margin: 1rem 0;
 }
 @media screen and (min-width: 992px) {
-  .journey,
+  .tracklist,
   .desc {
     width: 70vw;
   }

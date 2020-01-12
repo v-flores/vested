@@ -1,8 +1,8 @@
-.tours {
-  padding: 4rem 0;
+.releases {
+  padding: 0rem 0;
   text-align: center;
 }
-.tours h2 {
+.releases h2 {
   text-transform: capitalize;
   letter-spacing: 4px;
 }

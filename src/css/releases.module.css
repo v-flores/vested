@@ -1,8 +1,8 @@
-.tour {
+.release {
   box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   transition: all 0.3s linear;
 }
-.tour:hover {
+.release:hover {
   box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -61,12 +61,6 @@
 .info h6,
 .info h4 {
   margin-bottom: 0;
-}
-.country {
-  text-transform: capitalize;
-  color: #3fd0d4;
-  display: flex;
-  align-items: center;
 }
 .icon {
   margin-right: 0.4rem;
